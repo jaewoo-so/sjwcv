@@ -20,7 +20,7 @@ darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  jaewoo-so
 stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 facebook_username: jekyll
@@ -87,7 +87,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: Daishin Economic Research Institute
+        title: [alt text](/images/daishin_logo.png "Trees") Daishin Economic Research Institute
         sub_title: Job title
         caption: 2020.09 - present
         link: http://www.deri.co.kr/
