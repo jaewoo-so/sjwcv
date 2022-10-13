@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "kubernetes": "*.yaml",
+        "https://json.schemastore.org/jekyll.json": "file:///d%3A/06_web/sjwcv/_config.yml"
+    }
+}
