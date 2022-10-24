@@ -111,7 +111,13 @@ content:
         caption: 2020.09 - present
         link: http://www.deri.co.kr/
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Worked on applying machine learning technology to financial engineering and ESG evaluation services.
+
+          - Development of real-time news analysis system for ESG risk and classification
+          - Corporate equity structure visualization modeling
+          - Development of investment model based on machine learning model
+          - Media data-based enterprise ESG risk prediction
+          - Development of automatic collection and classification system for Fair Trade Commission deliberation and decision data
 
       - layout: left
         title: Threagen Bio
@@ -119,7 +125,12 @@ content:
         caption: 2018.05 - 2020.08
         link: https://www.theragenbio.com/
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          AI based R&D for omics , clinical, and medical image data. 
+
+          - Predictive modeling based on genetic data. 
+          - Predict patient drug responsiveness with clinical data.
+          - Classification of cancer types by medical image data. 
+          - Classification of health status with microbiome data.
 
   - title: Education
     layout: list
