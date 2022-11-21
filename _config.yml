@@ -98,24 +98,6 @@ content:
           - Blending, Stacking 등의 모델 앙상블 전략 연구. End-to-End 보다 
 
           [기여할수 있는 점]
-          - 쿠버네티스 기반의 머신러닝 서비스 파이프라인을 구축하는 전 과정 경험. 
-          
-      - layout: top-left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Drug Activity & Chemosensitivity 예측 모델 연구
-        sub_title: Job title 1
-        caption: 2019.12 - 2020.07 (8개월)
-        description: | # this will include new lines to allow paragraphs
-          [성과]
-          - 국제 바이오분야 대회 드림챌린지 Pancancer Drug Activity & Chemosensitivity 분야 각각 2위
-          - Cell Reports Medicine 에 방법론 등재. (A Community Challenge for Pancancer Drug Mechanism of Action Inference from Perturbational Profile Data)
-
-          [역활]
-          - 기존 윈도우 기반 서비스를 쿠버네티스 기반으로 개선. 
-          - 머신러닝 파이프라인 구축하여 Restful 마이크로서비스로 배포. 
-
-          [기여할수 있는 점]
           - 
           
       - layout: top-left
