@@ -9,44 +9,18 @@ version: 2
 name: Jae Woo So
 title: AI Research Engineer
 email: nchos88@gmail.com
-# email_title: Email (Email title override)
 phone: (82)010-6355-6339
-# phone_title: Phone (Phone title override)
 website: https://jaewoo-so.github.io/sjw/
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-#twitter_username: jekyllrb
 github_username:  jaewoo-so
 stackoverflow_username: "JaeWoo So"
-#dribbble_username: jekyll
-3facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
+facebook_username: jekyll
 linkedin_username: jekyll
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#orcid_username: 0000-0000-0000-0000
-#googlescholar_username: D847cGsAAAAJ
 
-# Additional icon links
-#additional_links:
-#- title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://#fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -54,53 +28,132 @@ content:
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Investment model development & consulting
+        title: ESG 미디어 실시간 분석 시스템
+        sub_title: 대신경제연구소 / 머신러닝 엔지니어
+        caption: 2022.06 - 2022.11 (6개월)
         description: | # this will include new lines to allow paragraphs
-          신규 투자 모형 개발 : 인공지능 기술을 사용한 투자전략 연구/
+          [성과]
+          - 외부 서비스를 위한 머신러닝 서비스 구축
+          - Kuberntes 기반으로 시스템 개선. 서비스 관리 인원 70% 감축
+
+          [역활]
+          - 기존 윈도우 기반 서비스를 쿠버네티스 기반으로 개선. 
+          - 머신러닝 파이프라인 구축하여 Restful 마이크로서비스로 배포. 
+
+          [획득 역량]
+          - On-premise 환경에서 쿠버네티스 기반의 머신러닝 서비스 파이프라인을 구축하는 전 과정 경험.
+          - Kubernetes, Github-Action, 마이크로서비스, Restful API
           
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Investment model development & consulting
+        title: ESG 미디어 이슈 분류 모델 연구 
+        sub_title: 대신경제경구소 / 머신러닝 엔지니어
+        caption: 2021.04 - 2022.05 (14개월)
         description: | # this will include new lines to allow paragraphs
-          - Development of new investment model: Research on investment strategy using artificial intelligence technology
+          [성과]
+          - BM 대비 평균 1.7% 초과 수익률 달성. 
+          - 경제 패턴의 클러스터별 전략 최적화로 기존 전통적 방법론 대비 수익률 0.8% 초과 달성. 
+
+          [역활]
+          - 시장 상황을 클러스터링, 각  클러스터별 최적 전략 찾는 방법으로 기존 전통적이 방법론 대비 수익률 0.8% 초과 달성. 
+          - 최신 AI기반 투자 및 자산배분관련 논문의 방법론 성능 검증.
+          - 
+
+          [기여할수 있는 점]
+          - 단순 모든 과정에 AI 기술 도입이 아닌, 고객 설득이 가능한 범위을 고려해 기술 개발을 하는 능력 
       
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: ESG Media Classification System
+        title: Tax Loss harvesting 
+        sub_title: Job title 1
+        caption: 2020.09 - 2021.04 (8개월)
         description: | # this will include new lines to allow paragraphs
-          - Machine learning-based classification model research
-          - Kubernetes based Restful API development
+          [성과]
+          - 외부 서비스를 위한 머신러닝 서비스 구축
+          - Kuberntes 기반으로 시스템 개선. 서비스 관리 인원 70% 감축
+
+          [역활]
+          - 기존 윈도우 기반 서비스를 쿠버네티스 기반으로 개선. 
+          - 머신러닝 파이프라인 구축하여 Restful 마이크로서비스로 배포. 
+
+          [기여할수 있는 점]
+          - 쿠버네티스 기반의 머신러닝 서비스 파이프라인을 구축하는 전 과정 경험. 
           
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Default Option System Development
+        title: Drug Activity & Chemosensitivity 예측 모델 연구
+        sub_title: Job title 1
+        caption: 2019.12 - 2020.07 (8개월)
         description: | # this will include new lines to allow paragraphs
-          - Optimized design including own fund
+          [성과]
+          - 국제 바이오분야 대회 드림챌린지 Pancancer Drug Activity & Chemosensitivity 분야 각각 2위
+          - Cell Reports Medicine 에 방법론 등재 (논문명 : A Community Challenge for Pancancer Drug Mechanism of Action Inference from Perturbational Profile Data)
+
+          [역활]
+          - 다른 성격의 데이터를 통합 사용하기 위해 representation learning 및 dimensional reduction 연구 
+          - Drug response data의 missing value imputation 방법 연구 
+          - Blending, Stacking 등의 모델 앙상블 전략 연구. End-to-End 보다 
+
+          [기여할수 있는 점]
+          - 쿠버네티스 기반의 머신러닝 서비스 파이프라인을 구축하는 전 과정 경험. 
           
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Investment model development & consulting
+        title: Drug Activity & Chemosensitivity 예측 모델 연구
+        sub_title: Job title 1
+        caption: 2019.12 - 2020.07 (8개월)
         description: | # this will include new lines to allow paragraphs
-          신규 투자 모형 개발 : 인공지능 기술을 사용한 투자전략 연구/
+          [성과]
+          - 국제 바이오분야 대회 드림챌린지 Pancancer Drug Activity & Chemosensitivity 분야 각각 2위
+          - Cell Reports Medicine 에 방법론 등재. (A Community Challenge for Pancancer Drug Mechanism of Action Inference from Perturbational Profile Data)
+
+          [역활]
+          - 기존 윈도우 기반 서비스를 쿠버네티스 기반으로 개선. 
+          - 머신러닝 파이프라인 구축하여 Restful 마이크로서비스로 배포. 
+
+          [기여할수 있는 점]
+          - 
           
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Investment model development & consulting
+        title: 비소세포폐암 환자에 대한 PD-1 면역항암제 반응성 예측 모델 연구
+        sub_title: Job title 1
+        caption: 2018.12 - 2019.06 (7개월)
         description: | # this will include new lines to allow paragraphs
-          신규 투자 모형 개발 : 인공지능 기술을 사용한 투자전략 연구
+          [성과]
+          - 기존 면역항암제 반응성 예측 모델 (AUC = 0.57 ) 대비 AUC=0.86으로 정확도 향상. 
+          - 연간 면역항암제 관련 의료비 37억원 (100명 기준) 절감. 
+          - 논문 발표 : Clinical decision support algorithm based on machine learning to assess the clinical response to anti–programmed death-1 therapy in patients with non–small-cell lung cancer. 
+
+          [역활]
+          - 예측에 주요한 피쳐 선정을 위해 featrue attribution model 연구. 
+          - compounding effects, features dependent 제거를 위한 피쳐 분석 작업 진행. 
+          - 머신러닝 모델 성능 평가 방법 디자인 및 모델별 비교 실험 진행. 
+
+          [기여할수 있는 점]
+          -    
       
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Default Option System Development
+        title: PL현상을 이용한 웨이퍼 두께 및 조성비 알고리즘 연구개발
+        sub_title: Job title 1
+        caption: 2017.10 - 2018.03 (6개월)
         description: | # this will include new lines to allow paragraphs
-          - 제약조건의 최적화 문제 해결
-          - 단순 최적 수익률이 아닌, 자사 상품 판매 
+          [성과]
+          - AI 기술 접목으로 경쟁사 검사장치 대비 원가는 약20% 감소, 검사 속도는 3배, 성능은 87% 달성. 
+
+          [역활]
+          - 고정밀 부품을 저정밀 부품으로 대체. 부족한 성능은 머신러닝 모델로 보완.  
+          - 머신러닝 모델에 성능에 최적화된 검사 알고리즘 연구.  
+
+          [기여할수 있는 점]
+          - 하드웨어의 특성 및 AI기술의 적용 가능 포인트를 종합적으로 고려한 문제해결 능력.   
 
   - title: Experience
     layout: list
