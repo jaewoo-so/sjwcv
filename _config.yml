@@ -52,16 +52,16 @@ content:
         caption: 2021.04 - 2022.05 (14개월)
         description: | # this will include new lines to allow paragraphs
           [성과]
-          - BM 대비 평균 1.7% 초과 수익률 달성. 
-          - 경제 패턴의 클러스터별 전략 최적화로 기존 전통적 방법론 대비 수익률 0.8% 초과 달성. 
+          - 머신러닝기반 분류 모델 개발로 인건비 연간 2억3000만원 절감. 
+          - 실무 및 머신러닝 모델 양쪽에서 유효한 ESG 이슈 클래스 분류체계 개발.
 
           [역활]
-          - 시장 상황을 클러스터링, 각  클러스터별 최적 전략 찾는 방법으로 기존 전통적이 방법론 대비 수익률 0.8% 초과 달성. 
-          - 최신 AI기반 투자 및 자산배분관련 논문의 방법론 성능 검증.
+          - supervised 및 unsupervised clustering 분석으로 multi-label 및 single-label 데이터가 혼합되어 있음을 발견. multi-label 이 되는 데이터가 최소화 되면서 실사용이 가능한 분류체계로 개선. f -beta (beta = 3) score 0.76 → 0.87로 향상.   
+          - 
           - 
 
-          [기여할수 있는 점]
-          - 단순 모든 과정에 AI 기술 도입이 아닌, 고객 설득이 가능한 범위을 고려해 기술 개발을 하는 능력 
+          [적용 포인트]
+          - 
       
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -71,15 +71,11 @@ content:
         caption: 2020.09 - 2021.04 (8개월)
         description: | # this will include new lines to allow paragraphs
           [성과]
-          - 외부 서비스를 위한 머신러닝 서비스 구축
-          - Kuberntes 기반으로 시스템 개선. 서비스 관리 인원 70% 감축
+          - BM 대비 평균 1.7% 초과 수익률 달성. 
 
           [역활]
-          - 기존 윈도우 기반 서비스를 쿠버네티스 기반으로 개선. 
-          - 머신러닝 파이프라인 구축하여 Restful 마이크로서비스로 배포. 
-
-          [기여할수 있는 점]
-          - 쿠버네티스 기반의 머신러닝 서비스 파이프라인을 구축하는 전 과정 경험. 
+          - 시장 상황을 클러스터링 후, 각  클러스터별 최적 전략을 찾는 방법으로 기존 전통적이 방법론 대비 수익률 0.8% 초과 달성. 
+          - Tax Loss harvesting 실현 전략에 대해서 전통적 방법, 강화학습 기반, 확률과정 기반의 기법을 각각 비교하여 No free lunch theorem이 적용됨을 보임. 시장 국면별 최적 전략을 예측하는 문제로 관점을 바꾸었다.  
           
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -89,7 +85,7 @@ content:
         caption: 2019.12 - 2020.07 (8개월)
         description: | # this will include new lines to allow paragraphs
           [성과]
-          - 국제 바이오분야 대회 드림챌린지 Pancancer Drug Activity & Chemosensitivity 분야 각각 2위
+          - 국제 바이오분야 대회 드림챌린지 Pancancer Drug Activity, Chemosensitivity 각각 2위
           - Cell Reports Medicine 에 방법론 등재 (논문명 : A Community Challenge for Pancancer Drug Mechanism of Action Inference from Perturbational Profile Data)
 
           [역활]
@@ -97,7 +93,7 @@ content:
           - Drug response data의 missing value imputation 방법 연구 
           - Blending, Stacking 등의 모델 앙상블 전략 연구. End-to-End 보다 
 
-          [기여할수 있는 점]
+          [적용 포인트]
           - 
           
       - layout: top-left
@@ -113,17 +109,17 @@ content:
           - 논문 발표 : Clinical decision support algorithm based on machine learning to assess the clinical response to anti–programmed death-1 therapy in patients with non–small-cell lung cancer. 
 
           [역활]
-          - 예측에 주요한 피쳐 선정을 위해 featrue attribution model 연구. 
-          - compounding effects, features dependent 제거를 위한 피쳐 분석 작업 진행. 
-          - 머신러닝 모델 성능 평가 방법 디자인 및 모델별 비교 실험 진행. 
+          - 예측에 주요한 피쳐 선정의 consistent를 보장하기 위한 missing value imputation 연구.  
+          - 면역항암제 투여를 위해서 PD-L1검사를 선행한다는 점에 착안, PD-L1값을 샘플 주변 값 추정에 사용해 feature attribution model의 local fidelity를 34% 개선했다. 본 문제에서 Local Interpretable Model-Agnostic Explnation(LIME)을 사용했다. 일반적으로 훈련용 데이터셋 전체에 대해서 around_x 를 추정한다.  그러나 본 문제에서는 면역항암제 사용을 위해 바이오마커 PD-L1을 검사한다. 따라서 이러한 사전 지식을 around_x 를 추정시 사용했다. 즉 PD-L1의 발현여부에 따른 조건부로 확률 분포를 설정하여 around_x 를 추정.
+          - 예측 모델간 성능 검증 방법 디자인 및 실험 진행. 
 
-          [기여할수 있는 점]
-          -    
+          [적용 포인트]
+          -     
       
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: PL현상을 이용한 웨이퍼 두께 및 조성비 알고리즘 연구개발
+        title: Photoluminescence 현상을 이용한 웨이퍼 두께 및 조성비 알고리즘 연구개발
         sub_title: Job title 1
         caption: 2017.10 - 2018.03 (6개월)
         description: | # this will include new lines to allow paragraphs
@@ -132,9 +128,9 @@ content:
 
           [역활]
           - 고정밀 부품을 저정밀 부품으로 대체. 부족한 성능은 머신러닝 모델로 보완.  
-          - 머신러닝 모델에 성능에 최적화된 검사 알고리즘 연구.  
+          - 레이저 파장, 각도, 동선에 따른 머신러닝 모델의 성능 분석. 
 
-          [기여할수 있는 점]
+          [적용 포인트]
           - 하드웨어의 특성 및 AI기술의 적용 가능 포인트를 종합적으로 고려한 문제해결 능력.   
 
   - title: Experience
